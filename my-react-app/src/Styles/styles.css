@@ -1,0 +1,40 @@
+footer {
+  background-color: rgba(89, 146, 238, 0.7);
+  height: 50px;
+  border-radius: 10px 10px 0 0;
+}
+
+header {
+  background-color: rgba(89, 146, 238, 0.7);
+  height: 100px;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+header h1 {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+}
+header h1 span {
+  font-size: 20px;
+}
+header .header-nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+header .header-nav .active-link {
+  text-decoration: underline;
+}
+
+:root {
+  font-family: Montserrat;
+}
+
+body {
+  margin: 0px;
+}
+
+/*# sourceMappingURL=styles.css.map */
