@@ -1,10 +1,12 @@
 @import "variables";
 @import "../Components/Footer/Footer.scss";
 @import "../Components/Header/Header.scss";
+@import "../Components/About/About.scss";
 
 :root {
   font-family:Montserrat;
 }
 body{
   margin: 0px;
+  background-color: $main_background_color;
 }

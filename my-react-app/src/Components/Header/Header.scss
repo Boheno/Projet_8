@@ -16,10 +16,15 @@ header{
     }
     .header-nav{
       display:flex;
-      justify-content: space-around;
       padding:10px;
+      justify-content: space-around;
+      
       .active-link{
-        text-decoration: underline;
+        font-weight: bold
       }
+    }
+    .header-nav a{
+      text-decoration: none;
+      color:black;
     }
 }

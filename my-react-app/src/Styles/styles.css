@@ -1,11 +1,11 @@
 footer {
-  background-color: rgba(89, 146, 238, 0.7);
+  background-color: rgba(230, 26, 26, 0.6);
   height: 50px;
   border-radius: 10px 10px 0 0;
 }
 
 header {
-  background-color: rgba(89, 146, 238, 0.7);
+  background-color: rgba(230, 26, 26, 0.6);
   height: 100px;
   border-radius: 0px 0px 10px 10px;
   display: flex;
@@ -22,11 +22,22 @@ header h1 span {
 }
 header .header-nav {
   display: flex;
-  justify-content: space-around;
   padding: 10px;
+  justify-content: space-around;
 }
 header .header-nav .active-link {
-  text-decoration: underline;
+  font-weight: bold;
+}
+header .header-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  height: 200px;
+  margin: 10px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 :root {
@@ -35,6 +46,7 @@ header .header-nav .active-link {
 
 body {
   margin: 0px;
+  background-color: #fae5d3;
 }
 
 /*# sourceMappingURL=styles.css.map */
