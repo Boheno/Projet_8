@@ -1,5 +1,14 @@
+.presentation{
+    display:flex;
+    justify-content: space-around;
+
+    .presentation-container{
+        display:flex;
+        //justify-content: center;
+    }
+}
 img{
-    height: 200px;
+    height: 400px;
     margin: $margin10;
     border:1px solid black ;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);

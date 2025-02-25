@@ -1,6 +1,6 @@
 function Footer(){
     return(
-        <footer>
+        <footer id="contact">
             <p>Contact:</p>
         </footer>
     )
