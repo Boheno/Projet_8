@@ -1,13 +1,13 @@
 footer {
-  background-color: rgba(230, 26, 26, 0.6);
+  background-color: rgba(45, 12, 12, 0.6);
+  color: #fbfaf9;
   height: 50px;
-  border-radius: 10px 10px 0 0;
 }
 
 header {
-  background-color: rgba(230, 26, 26, 0.6);
+  background-color: rgba(45, 12, 12, 0.6);
+  color: #fbfaf9;
   height: 100px;
-  border-radius: 0px 0px 10px 10px;
   display: flex;
   justify-content: space-between;
 }
@@ -28,7 +28,7 @@ header .header-nav .active-link {
 }
 header .header-nav a {
   text-decoration: none;
-  color: black;
+  color: #fbfaf9;
   display: flex;
   padding: 10px;
   justify-content: space-around;
@@ -37,9 +37,15 @@ header .header-nav a {
 .presentation {
   display: flex;
   justify-content: space-around;
+  margin-top: 10px;
 }
 .presentation .presentation-container {
   display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 500px;
+  font-size: 20px;
 }
 
 img {
@@ -49,12 +55,34 @@ img {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.projet-container {
-  height: 500px;
-  font-size: 30px;
+.projets-container {
+  font-size: 22px;
   display: flex;
   justify-content: center;
   text-align: center;
+  flex-direction: column;
+}
+.projets-container .projet-cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.projets-container .projet-cards-container .projet-card {
+  margin: 10px;
+  border: 2px solid rgba(45, 12, 12, 0.6);
+  height: 180px;
+  width: 160px;
+  font-size: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+}
+.projets-container .projet-cards-container .projet-card img {
+  object-fit: contain;
+  margin: 0;
+  width: 100%;
+  height: 70%;
+  border: none;
 }
 
 :root {
@@ -63,7 +91,7 @@ img {
 
 body {
   margin: 0px;
-  background-color: #fae5d3;
+  background-color: #fbfaf9;
 }
 
 /*# sourceMappingURL=styles.css.map */

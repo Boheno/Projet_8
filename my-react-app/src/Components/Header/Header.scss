@@ -1,7 +1,7 @@
 header{
     background-color: $main_color;
+    color: #fbfaf9;
     height: 100px;
-    border-radius:0px 0px 10px 10px;
     display:flex;
     justify-content: space-between;
   
@@ -23,7 +23,7 @@ header{
     }
     .header-nav a{
       text-decoration: none;
-      color:black;
+      color: #fbfaf9;
       display:flex;
       padding:10px;
       justify-content: space-around;
