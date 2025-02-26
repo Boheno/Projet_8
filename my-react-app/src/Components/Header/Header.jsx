@@ -2,7 +2,7 @@
 function Header (){
     return(
         <header>
-            <h1>Nolwenn <span>Bohelay</span></h1>
+            <h1>Nolwenn Bohelay <span>Developpeur web</span></h1>
             <nav className="header-nav">
                 <a href="/#a-propos">A propos</a>
                 <a href="/#projets">Projets</a>

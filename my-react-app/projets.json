@@ -10,5 +10,23 @@
         "title": "Portfolio Sophie Bluel - Javascript",
         "cover":"/Logo-sophie-bluel.png",
         "link":"https://boheno.github.io/Projet_3/Portfolio-architecte-sophie-bluel/FrontEnd/"
+    },
+    {
+        "id": "selfinj",
+        "title": "Nina Carducci - SEO et débug ",
+        "cover":"nina-carducci.png",
+        "link":"https://boheno.github.io/Projet-4/Nina-Carducci-Dev/"
+    },
+    {
+        "id": "tjgdfgsq",
+        "title": "Kasa - React ",
+        "cover":"Logo-react.png",
+        "link":"https://boheno.github.io/Projet_5/"
+    },
+    {
+        "id": "qdzoeihgn",
+        "title": " Mon vieux Grimoire - Back-end ",
+        "cover":"Logo-grimoire.png",
+        "link":"https://boheno.github.io/Projet-6/"
     }
 ]

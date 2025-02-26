@@ -6,11 +6,14 @@ header{
     justify-content: space-between;
   
     h1{
-      margin:$margin10;
+      margin:20px 30px;
       display:flex;
-	    justify-content: space-around;
+	    flex-direction: column;
       font-size: 30px;
       font-weight: normal;
+      span{
+        font-size: 20px;
+      }
     }
     .header-nav{
       display:flex;

@@ -12,11 +12,14 @@ header {
   justify-content: space-between;
 }
 header h1 {
-  margin: 10px;
+  margin: 20px 30px;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   font-size: 30px;
   font-weight: normal;
+}
+header h1 span {
+  font-size: 20px;
 }
 header .header-nav {
   display: flex;
