@@ -1,5 +1,5 @@
 .projets-container{
-   // height: 500px;
+   margin: 20px;
     font-size: 22px;
     display: flex;
     justify-content: center;
@@ -11,11 +11,12 @@
         flex-direction: row;
         justify-content: center;
         
+        width: 90%;
+        
         .projet-card{
             margin:$margin10;
-            border:2px solid $main_color;
             height: 180px;
-            width: 160px;
+            width: 20%;
             font-size: 15px;
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
             background-color: white;
@@ -28,5 +29,12 @@
                 border:none;
             }
         }
+    }
+}
+
+@media (max-width: 767px){
+    .projet-cards-container{
+        display: flex;
+        flex-wrap: wrap;
     }
 }

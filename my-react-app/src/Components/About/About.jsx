@@ -5,7 +5,7 @@ function About(){
     <div className="presentation" id="a-propos">
         <img src={photo} className="photo-profil" alt="photo" />
         <div className="presentation-container">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Actuellement en reconversion professionnelle, je suis en formation de développeur web, un domaine dans lequel j&apos;ai appréhendé avec succès des technologies telles que HTML, CSS, JavaScript, React, Express.js, Node.js, MongoDB ainsi que le SEO et le déboggage. Cette première expérience m&apos;a également permis de développer des soft skills essentielles, telles que l&apos;autonomie, la gestion des problèmes, la gestion du stress, la communication et l&apos;adaptabilité, des qualités que j&apos;avais déjà acquises au cours de mon parcours précédent. Grâce à cette combinaison de compétences techniques et humaines, je suis aujourd&apos;hui prête à relever de nouveaux défis dans le développement web, avec un esprit d&apos;équipe et une approche orientée solution.</p>
         </div>
     </div>
     )

@@ -1,12 +1,17 @@
 footer {
-  background-color: rgba(45, 12, 12, 0.6);
-  color: #fbfaf9;
-  height: 50px;
+  background-color: white;
+  margin-top: 20px;
+  padding: 20px;
+  border-top: 1px dotted black;
+  display: flex;
+  justify-content: space-around;
+}
+footer a {
+  margin: 15px 0;
 }
 
 header {
-  background-color: rgba(45, 12, 12, 0.6);
-  color: #fbfaf9;
+  background-color: white;
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -31,7 +36,6 @@ header .header-nav .active-link {
 }
 header .header-nav a {
   text-decoration: none;
-  color: #fbfaf9;
   display: flex;
   padding: 10px;
   justify-content: space-around;
@@ -40,25 +44,31 @@ header .header-nav a {
 .presentation {
   display: flex;
   justify-content: space-around;
-  margin-top: 10px;
+  margin: 10px;
 }
 .presentation .presentation-container {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  width: 60%;
+  font-size: 20px;
+  border: 1px groove rgba(251, 250, 249, 0.6);
+  background-color: white;
   display: flex;
   text-align: center;
-  justify-content: center;
-  margin-top: 20px;
-  width: 500px;
-  font-size: 20px;
 }
-
-img {
+.presentation .presentation-container p {
+  line-height: 1.5;
+  padding: 40px 30px 30px 20px;
+  display: flex;
+  justify-content: center;
+}
+.presentation img {
   height: 400px;
-  margin: 10px;
   border: 1px solid black;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .projets-container {
+  margin: 20px;
   font-size: 22px;
   display: flex;
   justify-content: center;
@@ -69,12 +79,12 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  width: 90%;
 }
 .projets-container .projet-cards-container .projet-card {
   margin: 10px;
-  border: 2px solid rgba(45, 12, 12, 0.6);
   height: 180px;
-  width: 160px;
+  width: 20%;
   font-size: 15px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   background-color: white;
@@ -85,6 +95,23 @@ img {
   margin: 0;
   width: 100%;
   height: 70%;
+  border: none;
+}
+
+@media (max-width: 767px) {
+  .projet-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.banner {
+  margin-bottom: 30px;
+}
+.banner .banner-img {
+  margin: 0px;
+  width: 100%;
+  height: 300px;
+  object-fit: fill;
   border: none;
 }
 

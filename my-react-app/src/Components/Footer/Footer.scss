@@ -1,5 +1,11 @@
 footer{
-    background-color:$main_color;
-    color: #fbfaf9;
-    height: 50px;
+    background-color:white;
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 1px dotted black;
+    display: flex;
+    justify-content: space-around;
+    a{
+        margin: 15px 0;
+    }
 }

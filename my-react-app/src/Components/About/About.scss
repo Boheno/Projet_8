@@ -1,20 +1,31 @@
 .presentation{
     display:flex;
     justify-content: space-around;
-    margin-top: $margin10;
+    margin: $margin10;
 
     .presentation-container{
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        
+        
+        width: 60%;
+        font-size: 20px;
+        border: 1px groove $main_color;
+        background-color: white;
         display:flex;
         text-align: center;
-        justify-content: center;
-        margin-top: 20px;
-        width: 500px;
-        font-size: 20px;
+        p{
+            line-height:1.5;
+            padding: 40px 30px 30px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        
+    }
+    img{
+        height: 400px;
+        //margin: $margin10;
+        border:1px solid black ;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     }
 }
-img{
-    height: 400px;
-    margin: $margin10;
-    border:1px solid black ;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-}
+
