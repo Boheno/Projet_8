@@ -1,32 +1,37 @@
 [
     {
         "id": "fgfjgb",
-        "title": "Booki - HTML/ CSS",
+        "title": "HTML/ CSS",
         "cover": "/Logo_booki.png",
-        "link": "https://boheno.github.io/Projet_2/booki-starter-code/"
+        "link": "https://boheno.github.io/Projet_2/booki-starter-code/",
+        "category": "front-end"
     },
     {
         "id": "sdfjn",
-        "title": "Portfolio Sophie Bluel - Javascript",
+        "title": "Javascript",
         "cover":"/Logo-sophie-bluel.png",
-        "link":"https://boheno.github.io/Projet_3/Portfolio-architecte-sophie-bluel/FrontEnd/"
+        "link":"https://boheno.github.io/Projet_3/Portfolio-architecte-sophie-bluel/FrontEnd/",
+        "category": "front-end"
     },
     {
         "id": "selfinj",
-        "title": "Nina Carducci - SEO et débug ",
+        "title": "SEO et débug ",
         "cover":"nina-carducci.png",
-        "link":"https://boheno.github.io/Projet-4/Nina-Carducci-Dev/"
+        "link":"https://boheno.github.io/Projet-4/Nina-Carducci-Dev/",
+        "category": "SEO"
     },
     {
         "id": "tjgdfgsq",
-        "title": "Kasa - React ",
+        "title": "React ",
         "cover":"Logo-react.png",
-        "link":"https://boheno.github.io/Projet_5/"
+        "link":"https://boheno.github.io/Projet_5/",
+        "category": "front-end"
     },
     {
         "id": "qdzoeihgn",
-        "title": " Mon vieux Grimoire - Back-end ",
+        "title": "Back-end ",
         "cover":"Logo-grimoire.png",
-        "link":"https://boheno.github.io/Projet-6/"
+        "link":"https://boheno.github.io/Projet-6/",
+        "category": "back-end"
     }
 ]
