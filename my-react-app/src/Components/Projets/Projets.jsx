@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
-import FilterButtons from "../Modals/Modals";
+import FilterButtons from "../Filtre/Filtre";
 
 function GenerateCards() {
     return (
-        <div className="projets-container">
+        <div className="projets-container" id="projets">
             <h2>Mes projets réalisés</h2>
             <FilterButtons />
             </div>

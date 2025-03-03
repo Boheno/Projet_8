@@ -4,14 +4,14 @@
         "title": "HTML/ CSS",
         "cover": "/Logo_booki.png",
         "link": "https://boheno.github.io/Projet_2/booki-starter-code/",
-        "category": "front-end"
+        "category": "Front-end"
     },
     {
         "id": "sdfjn",
         "title": "Javascript",
         "cover":"/Logo-sophie-bluel.png",
         "link":"https://boheno.github.io/Projet_3/Portfolio-architecte-sophie-bluel/FrontEnd/",
-        "category": "front-end"
+        "category": "Front-end"
     },
     {
         "id": "selfinj",
@@ -25,13 +25,13 @@
         "title": "React ",
         "cover":"Logo-react.png",
         "link":"https://boheno.github.io/Projet_5/",
-        "category": "front-end"
+        "category": "Front-end"
     },
     {
         "id": "qdzoeihgn",
         "title": "Back-end ",
         "cover":"Logo-grimoire.png",
         "link":"https://boheno.github.io/Projet-6/",
-        "category": "back-end"
+        "category": "Back-end"
     }
 ]

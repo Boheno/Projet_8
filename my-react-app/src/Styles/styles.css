@@ -119,13 +119,33 @@ header .header-nav a {
   border: none;
 }
 
+button {
+  margin: 10px 30px;
+  background-color: white;
+  width: 100px;
+  height: 60px;
+  border: none;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+}
+button:hover {
+  background-color: #f6ece4;
+  border: 2px solid rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.btn-filter-button-active {
+  background-color: rgba(251, 250, 249, 0.6);
+  border: 2px solid rgb(255, 255, 255);
+}
+
 :root {
   font-family: Montserrat;
 }
 
 body {
   margin: 0px;
-  background-color: #fbfaf9;
+  background-color: #f6ece4;
 }
 
 /*# sourceMappingURL=styles.css.map */
