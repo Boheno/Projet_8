@@ -139,6 +139,24 @@ button:hover {
   border: 2px solid rgb(255, 255, 255);
 }
 
+.fa-xmark {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.modal-content .modal-title {
+  display: flex;
+  justify-content: center;
+}
+.modal-content p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 30px;
+  font-size: 20px;
+}
+
 :root {
   font-family: Montserrat;
 }

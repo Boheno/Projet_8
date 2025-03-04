@@ -5,16 +5,31 @@ Modal.setAppElement("#root");
 
 function ModalOpen({ isOpen, onRequestClose, project }) {
   if (!project) {
-    return null; // Ne pas afficher la modale si aucun projet n'est sélectionné
+    return null;
   }
 
+  const modalStyles = {
+    content: {
+        backgroundColor: "white",
+        width: "50%",
+        height:"60%",
+        position: 'absolute',
+        top: '50%',
+        left: '50%', 
+        transform: 'translate(-50%, -50%)'
+    },
+  };
+
   return (
-    <Modal isOpen={isOpen} onRequestClose={onRequestClose} contentLabel="Détails du projet">
-      <h2>{project.title}</h2>
-      <img src={project.cover} alt={project.title} />
-      <p>Catégorie: {project.category}</p>
+    <Modal isOpen={isOpen} onRequestClose={onRequestClose} contentLabel="Détails du projet" style={modalStyles}>
+      <i className="fa-solid fa-xmark" onClick={onRequestClose}></i>
+      <div className='modal-content'>
+      <h2 className='modal-title'>{project.title}</h2>
+      <img className='img-modal' src={project.cover} alt={project.title} />
+      <p>{project.description}</p>
       <p>Lien: <a href={project.link} target="_blank" rel="noopener noreferrer">Voir le projet</a></p>
-      <button onClick={onRequestClose}>Fermer</button>
+      
+      </div>
     </Modal>
   );
 }
