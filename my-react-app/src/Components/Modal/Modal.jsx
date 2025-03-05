@@ -12,7 +12,7 @@ function ModalOpen({ isOpen, onRequestClose, project }) {
     content: {
         backgroundColor: "white",
         width: "50%",
-        height:"60%",
+        height:"65%",
         position: 'absolute',
         top: '50%',
         left: '50%', 
@@ -22,11 +22,15 @@ function ModalOpen({ isOpen, onRequestClose, project }) {
 
   return (
     <Modal isOpen={isOpen} onRequestClose={onRequestClose} contentLabel="Détails du projet" style={modalStyles}>
-      <i className="fa-solid fa-xmark" onClick={onRequestClose}></i>
-      <div className='modal-content'>
-      <h2 className='modal-title'>{project.title}</h2>
+      <div className='header-modal'>
       <img className='img-modal' src={project.cover} alt={project.title} />
+      <i className="fa-solid fa-xmark" onClick={onRequestClose}></i>
+      </div>
+      <div className='modal-content'>
+      <h2 className='modal-title'>{project.title} <i className={project.iconClass}></i> </h2>
       <p>{project.description}</p>
+      <h3>Problèmatiques du projet:</h3>
+      <p>{project.problem}</p>
       <p>Lien: <a href={project.link} target="_blank" rel="noopener noreferrer">Voir le projet</a></p>
       
       </div>

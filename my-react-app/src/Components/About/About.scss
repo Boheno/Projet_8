@@ -5,19 +5,22 @@
 
     .presentation-container{
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-        
-        
         width: 60%;
-        font-size: 20px;
         border: 1px groove $main_color;
         background-color: white;
         display:flex;
         text-align: center;
+        flex-direction: column;
+        h3{
+            margin:10px 0 0 0;
+            font-size: 20px;
+        }
         p{
             line-height:1.5;
-            padding: 40px 30px 30px 20px;
+            padding: 0px 30px;
             display: flex;
             justify-content: center;
+            font-size: 18px;
         }
         
     }
