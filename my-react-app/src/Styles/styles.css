@@ -10,6 +10,12 @@ footer a {
   margin: 15px 0;
 }
 
+@media (max-width: 767px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
 header {
   background-color: white;
   height: 100px;
@@ -41,6 +47,16 @@ header .header-nav a {
   justify-content: space-around;
 }
 
+@media (max-width: 767px) {
+  header h1 {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+  header .header-nav {
+    padding: 20px 0 0 0;
+    font-size: 14px;
+  }
+}
 .presentation {
   display: flex;
   justify-content: space-around;
@@ -72,6 +88,26 @@ header .header-nav a {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+@media (max-width: 767px) {
+  .presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .presentation .presentation-container {
+    width: 100%;
+  }
+  .presentation .presentation-container p {
+    font-size: 14px;
+  }
+  .presentation .photo-profil {
+    width: 170px;
+    height: 220px;
+    margin-bottom: 10px;
+    display: flex;
+  }
+}
 .projets-container {
   margin: 50px;
   padding: 0px 40px;
@@ -107,12 +143,25 @@ header .header-nav a {
 }
 
 @media (max-width: 767px) {
-  .projet-cards-container {
+  .projets-container {
     display: flex;
+  }
+  .projets-container .projet-cards-container {
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    font-size: 10px;
+    font-size: 16px;
+  }
+  .projets-container .projet-cards-container .projet-card {
+    width: 90%;
   }
 }
+.error-body {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
 .banner {
   margin-bottom: 30px;
 }
@@ -172,6 +221,11 @@ button:hover {
   padding: 0px 10px;
 }
 
+@media (max-width: 767px) {
+  .modal-content p {
+    font-size: 12px;
+  }
+}
 :root {
   font-family: Montserrat;
 }

@@ -9,3 +9,9 @@ footer{
         margin: 15px 0;
     }
 }
+@media (max-width: 767px){
+    footer{ 
+    display: flex;
+    flex-direction: column;
+    }
+}

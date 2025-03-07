@@ -6,7 +6,7 @@
         "cover": "/Logo_booki.png",
         "link": "https://boheno.github.io/Projet_2/booki-starter-code/",
         "category": "Front-end",
-        "description": "Mon premier projet réalisé dans le cadre de ma formation de développeur web, j'ai réalisé la page front-end d'une agence de voyage avec HTML et CSS. Il a fallu décrypter, analyser, découper les maquettes fournies afin de comprendre la composition d'une page web (le header, le footer et tout ce qu'il y a entre les deux). Ensuite, vient le développement en lui-même des différentes parties de la page web, l'intégration de chaque éléments, et rendre ensuite cette page responsive pour des écrans de différentes tailles.",
+        "description": "Mon premier projet réalisé dans le cadre de ma formation de développeur web, j'ai réalisé la page front-end d'une agence de voyage avec HTML et CSS. Il a fallu décrypter, analyser, découper les maquettes fournies afin de comprendre la composition d'une page web (le header, le footer et tout ce qu'il y a entre les deux). Ensuite, vient le développement en lui-même des différentes parties de la page web, l'intégration de chaque éléments, et rendre ensuite cette page responsive pour tous les types d'écrans (Desktop, tablette, mobile).",
         "problem":"Dans ce projet, il s'agissait de la prise en main des outils de développement et comprendre ce qu'est une page web. Venant d'un milieu professionnel différent, c'est un nouveau monde qui s'ouvrait à moi. Il a fallu faire attention au respect de la maquette, l'adaptation aux différentes tailles d'écran avec les mediaqueries etc. L'apprentissage s'est fait au fur et à mesure de l'avancement du projet."
     },
     {
@@ -16,7 +16,7 @@
         "cover":"/Logo-sophie-bluel.png",
         "link":"https://github.com/Boheno/Projet_3/tree/main/Portfolio-architecte-sophie-bluel",
         "category": "Front-end",
-        "description":"Le développement du portfolio de Sophie Bluel, architecte, s'est axé autour de JavaScript. Le but ici était de générer le front-end dynamiquement grâce à JavaScript, à partir d'une base de données locale SQLite. Il a fallu également gérer la fonction de Login avec la gestion du Token généré afin de donner accès à des fonctionnalités spécifiques. La création d'une modale avec la possibilité de modifier les projets présents en base de donnée, en ajouter ou en supprimer était également l'un des défis de ce développement.",
+        "description":"Le développement du portfolio de Sophie Bluel, architecte, s'est axé autour de JavaScript. Le but ici était de générer le front-end dynamiquement en manipulant les éléments du DOM avec JavaScript, à partir d'une base de données locale SQLite. Il a fallu également récupérer des données utilisateurs dans le JavaScript via le formulaire et gérer les évènements utilisateurs avec JavaScript. La création d'une modale avec la possibilité de modifier les projets présents en base de donnée, en ajouter ou en supprimer était également l'un des défis de ce développement.",
         "problem":"Ce développement m'a fait découvrir notamment les requêtes HTTP qu'il a fallu appréhender, comprendre le fonctionnement d'une API et de la méthode Fetch. Grâce à mes recherches, des schémas etc, j'ai pu appréhender ces notions et dialoguer avec une API tout en sécurisant les routes avec la gestion du Token."
     },
     {
@@ -26,7 +26,7 @@
         "cover":"nina-carducci.png",
         "link":"https://github.com/Boheno/Projet-4/tree/main/Nina-Carducci-Dev",
         "category": "SEO",
-        "description":"Ce projet différent nous projette comme développeur cherchant à optimiser le site web d'une photographe: Nina Carducci. Ici, le travail s'est orienté vers l'optimisation en SEO du site, l'amélioration de l'accessibilité, de ses performances et la correction du code créant des bugs sur certaines fonctionnalités. J'ai principalement utilisé des outils comme LightHouse, Wave, Google Rich results afin d'évaluer les effets de mes réalisations.",
+        "description":"Ce projet différent nous projette comme développeur cherchant à optimiser le site web d'une photographe: Nina Carducci. Ici, le travail s'est orienté vers l'optimisation en SEO du site, l'amélioration de l'accessibilité, de ses performances et la correction du code créant des bugs sur certaines fonctionnalités grâce aux Chrome DevTools. J'ai principalement utilisé des outils comme LightHouse, Wave, Google Rich results afin de rédiger un cahier de recette pour tester un site.",
         "problem":"La correction du site de Nina Carducci, photographe, passait d'abord par la compréhension d'un code que je n'avais pas écris, avec une syntaxe dans un langage que je ne connaissais pas. Il a fallu faire des recherches afin de comprendre le code et voir où se situait le bug. Ce projet demandait également l'amélioration des performances du site, de son accessibilité et son optimisation en SEO avec des outils tels que lighthouse et wave que je ne connaissais pas. J'ai donc appris leur utilisation et leur utilité pour l'amélioration d'un site web. "
     },
     {
@@ -36,7 +36,7 @@
         "cover":"Logo-react.png",
         "link":"https://github.com/Boheno/Projet_5",
         "category": "Front-end",
-        "description":"Ce projet a permis la découverte d'un nouveau langage: React. Des notions comme les composants, hooks, props, routeurs... sont à appréhender afin de développer la page front-end d'un site de location immobilière dans ce langage moderne et largement utilisé dans les entreprises.",
+        "description":"Ce projet a permis la découverte d'un nouveau langage: React. Il s'agit ici de configurer la navigation entre les pages de l'application avec React Router, initialiser une application avec Create React App, développer des éléments de l'interface d'un site web grâce à des composants React afin de développer le front-end d'un site de location immobilière dans ce langage moderne et largement utilisé dans les entreprises.",
         "problem":"Un nouveau langage, de nouveaux défis. Nous démarrons ce projet du début avec seulement une base en back-end, il a fallu donc appréhender de nouveaux concepts comme les composants ou les props. Par les recherches et les essais, j'ai réussi à comprendre ces prinpices, me permettant d'utiliser React pour mon portfolio."
     },
     {
@@ -46,7 +46,7 @@
         "cover":"Logo-grimoire.png",
         "link":"https://github.com/Boheno/Projet-6",
         "category": "Back-end",
-        "description":"Le développement du site Mon Vieux Grimoire s'est axé sur la partie back-end. Ici, il a fallu appréhender les notions de routes, contrôleurs, middleware etc afin de construire le back-end du site.",
+        "description":"Le développement du site Mon Vieux Grimoire s'est axé sur la partie back-end. Ici, il a fallu appréhender les notions de routes, contrôleurs, middleware etc afin de construire le back-end du site en mettant en œuvre des opérations CRUD de manière sécurisée, stocker des données de manière sécurisée, Implémenter un modèle logique de données conformément à la réglementation.",
         "problem":"Ayant la partie Front-end de ce site codée en React, il a fallu ici construire étape par étape le back-end du site, ses routes et middleware nécessaires à son fonctionnement. Le plus difficile a été de comprendre exactement l'utilité et l'utilisation de ces composants, notamment grâce à l'aide de développeurs ayant réussi à m'expliquer ce fonctionnement, permettant le développement du Back-End du site Mon Vieux Grimoire."
     }
 ]

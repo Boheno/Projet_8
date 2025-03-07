@@ -35,9 +35,18 @@
 }
 
 @media (max-width: 767px){
-    .projet-cards-container{
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 10px;
+    .projets-container{
+        display:flex;
+        .projet-cards-container{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            font-size: 16px;
+        .projet-card{
+            width:90%;
+        } 
+        }
     }
+    
+    
 }

@@ -4,7 +4,7 @@ import FilterButtons from "../Filtre/Filtre";
 function GenerateCards() {
     return (
         <div className="projets-container" id="projets">
-            <h2>Mes projets réalisés</h2>
+            <h2>Projets réalisés</h2>
             <FilterButtons />
             </div>
     );
