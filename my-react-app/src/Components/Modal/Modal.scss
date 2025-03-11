@@ -25,6 +25,14 @@
     a{
         padding: 0px 10px;
     }
+    .competences{
+        display: flex;
+        justify-content: center;
+       text-align: center;
+      p{
+        margin:0 10px;
+      }
+    }
 }
 @media (max-width: 767px){
 .modal-content{

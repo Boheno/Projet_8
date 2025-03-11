@@ -131,6 +131,10 @@ header .header-nav a {
   background-color: white;
   border-radius: 10px 10px 0 0;
 }
+.projets-container .projet-cards-container .projet-card:hover {
+  cursor: pointer;
+  background-color: rgba(251, 250, 249, 0.6);
+}
 .projets-container .projet-cards-container .projet-card img {
   object-fit: contain;
   margin: 0;
@@ -219,6 +223,14 @@ button:hover {
 }
 .modal-content a {
   padding: 0px 10px;
+}
+.modal-content .competences {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.modal-content .competences p {
+  margin: 0 10px;
 }
 
 @media (max-width: 767px) {

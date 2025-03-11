@@ -31,6 +31,11 @@ function ModalOpen({ isOpen, onRequestClose, project }) {
       <p>{project.description}</p>
       <h3>Problèmatiques du projet:</h3>
       <p>{project.problem}</p>
+      
+      <h3>Compétences développées:</h3>
+      <div className='competences'>
+      <i className="fa-solid fa-arrow-right"></i> <p>{project.competences}</p>
+      </div>
       <p>Lien: <a href={project.link} target="_blank" rel="noopener noreferrer">Voir le projet</a></p>
       
       </div>
