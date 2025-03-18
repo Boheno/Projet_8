@@ -4,7 +4,7 @@
         "title": "HTML/ CSS",
         "iconClass": "fa-brands fa-html5",
         "cover": "/Logo_booki.png",
-        "link": "https://boheno.github.io/Projet_2/booki-starter-code/",
+        "link": "https://github.com/Boheno/Projet_2",
         "category": "Front-end",
         "description": "Mon premier projet réalisé dans le cadre de ma formation de développeur web, j'ai réalisé la page front-end d'une agence de voyage avec HTML et CSS. Il a fallu décrypter, analyser, découper les maquettes fournies afin de comprendre la composition d'une page web (le header, le footer et tout ce qu'il y a entre les deux). Ensuite, vient le développement en lui-même des différentes parties de la page web, l'intégration de chaque éléments, et rendre ensuite cette page responsive pour tous les types d'écrans (Desktop, tablette, mobile).",
         "problem":"Dans ce projet, il s'agissait de la prise en main des outils de développement et comprendre ce qu'est une page web. Venant d'un milieu professionnel différent, c'est un nouveau monde qui s'ouvrait à moi. Il a fallu faire attention au respect de la maquette, l'adaptation aux différentes tailles d'écran avec les mediaqueries etc. L'apprentissage s'est fait au fur et à mesure de l'avancement du projet.",

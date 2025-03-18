@@ -37,7 +37,6 @@ function ModalOpen({ isOpen, onRequestClose, project }) {
       <i className="fa-solid fa-arrow-right"></i> <p>{project.competences}</p>
       </div>
       <p>Lien: <a href={project.link} target="_blank" rel="noopener noreferrer">Voir le projet</a></p>
-      
       </div>
     </Modal>
   );
